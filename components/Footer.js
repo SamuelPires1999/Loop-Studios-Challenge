@@ -6,11 +6,11 @@ export default function Footer() {
                     <img src="/images/logo.svg" className="w-min h-auto"/>
                 </div>
                 <div className={`flex items-center font-alata text-lg space-y-4 md:flex my-12 md:my-0  md:space-x-6 md:space-y-0 flex-col md:flex-row`}>
-                    <span>About</span>
-                    <span>Careers</span>
-                    <span>Events</span>
-                    <span>Products</span>
-                    <span>Support</span>
+                    <a href="#" className="hover:underline">About</a>
+                    <a href="#" className="hover:underline">Careers</a>
+                    <a href="#" className="hover:underline">Events</a>
+                    <a href="#" className="hover:underline">Products</a>
+                    <a href="#" className="hover:underline">Support</a>
                 </div>
             </div>
             <div className="flex flex-col gap-10 md:w-1/2">

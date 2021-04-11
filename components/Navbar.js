@@ -14,11 +14,11 @@ export default function Navbar(){
                 }
             </div>  
             <div className={`${open ? "flex" : "hidden"} space-y-4 md:flex mt-6 md:mt-0 md:space-x-6 md:space-y-0 flex-col md:flex-row`}>
-                <span>About</span>
-                <span>Careers</span>
-                <span>Events</span>
-                <span>Products</span>
-                <span>Support</span>
+                <a href="#" className="hover:underline">About</a>
+                <a href="#" className="hover:underline">Carrers</a>
+                <a href="#" className="hover:underline">Events</a>
+                <a href="#" className="hover:underline">Products</a>
+                <a href="#" className="hover:underline">Support</a>
             </div>          
         </div>
     )
