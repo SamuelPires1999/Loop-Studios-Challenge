@@ -21,7 +21,7 @@ export default function Footer() {
                 </div>
                 <div className="flex justify-center md:justify-end">
                     <span className="text-dark-gray font-alata">
-                        © 2021 Loopstudios. All rights reserved. 
+                        © 2021 Loopstudios. All rights reserved. Developed by <a rel="noopener" target="_blank" href="https://github.com/SamuelPires1999">Samuel Pires</a>.
                     </span>
                 </div>
             </div>
